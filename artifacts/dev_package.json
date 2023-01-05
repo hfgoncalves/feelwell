@@ -78,6 +78,12 @@
 	"rulesengine": [],
 	"reports": [
 		{
+			"id": "e7e281b3-738c-ed11-9f5e-0022489e2f99",
+			"name": "fw_myactivities",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "de927693-818c-ed11-9f5e-0022489e2f99",
 			"name": "fw_activity_quick",
 			"description": "",
