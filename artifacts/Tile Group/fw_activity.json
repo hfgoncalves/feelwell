@@ -7,9 +7,7 @@
 		"89bb71df-6b8c-ed11-9f5e-0022489e2f99",
 		"b5f7cfe1-798c-ed11-9f5e-0022489e2f99"
 	],
-	"tilegroupsOrder": [
-		"92eeb911-6c8c-ed11-9f5e-0022489e2f99"
-	],
+	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": null,
 	"subTitle": null,
@@ -30,7 +28,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.1.4.2151",
+	"ver": "23.1.5.1331",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -77,12 +75,5 @@
 			"ver": "23.1.4.2248"
 		}
 	],
-	"tilegroups": [
-		{
-			"id": "92eeb911-6c8c-ed11-9f5e-0022489e2f99",
-			"name": "fw_md",
-			"title": "Master Data",
-			"ver": "23.1.4.2012"
-		}
-	]
+	"tilegroups": []
 }
