@@ -32,7 +32,9 @@
 		}
 	],
 	"config": {
-		"enhancement": ""
+		"enhancement": "",
+		"loginTitle": "Are you ready to be NepTUNED",
+		"loginSubTitle": "2023"
 	},
 	"enhancement": [],
 	"name": "fw_launchpad",
@@ -67,7 +69,7 @@
 	"enableNotifications": false,
 	"firebaseProjectId": null,
 	"firebaseAppId": null,
-	"defaultLoginIDP": null,
+	"defaultLoginIDP": "4c9d8161-7e96-4be1-e162-7e97ffae9a2c",
 	"publicAccess": false,
 	"css": null,
 	"clientRequestTimeout": 120,
@@ -81,7 +83,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.1.5.1345",
+	"ver": "23.1.5.1412",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,

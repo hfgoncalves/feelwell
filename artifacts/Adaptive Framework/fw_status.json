@@ -9,8 +9,8 @@
 				"textButtonClose": "Close",
 				"typeButtonClose": "Transparent",
 				"enableValues": true,
-				"enableLeftPanel": false,
-				"enableRightPanel": false,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
 				"enableVariant": true,
 				"showLeftPanel": false,
 				"showRightPanel": false,
@@ -25,6 +25,12 @@
 			}
 		},
 		"fieldCatalog": [
+			{
+				"name": "date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
 			{
 				"name": "category",
 				"label": "Category",
@@ -104,7 +110,7 @@
 			{
 				"filter": true,
 				"name": "createdBy",
-				"text": "Created By",
+				"text": "Person",
 				"fieldPos": 5
 			},
 			{
@@ -125,14 +131,22 @@
 			"id": "bef903b9-17ec-4f31-9d0f-500891473989",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
+			"row": [
+				{
+					"filter": true,
+					"name": "createdBy",
+					"text": "Created By",
+					"fieldPos": 5,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
 			"column": [
 				{
 					"filter": true,
-					"name": "createdAt",
-					"text": "Created At",
-					"enableFilter": false,
-					"fieldPos": 4,
+					"name": "category",
+					"text": "Category",
+					"fieldPos": 7,
 					"visible": false,
 					"filterType": "Transparent"
 				}
@@ -150,7 +164,7 @@
 			],
 			"inclusions": {},
 			"exclusions": {},
-			"rendererName": "Area Spline Chart",
+			"rendererName": "Stacked Column Chart",
 			"aggregatorName": "Integer Sum"
 		},
 		"id": "669763A4-718C-ED11-9F5E-0022489E2F99"
@@ -163,7 +177,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.131",
+	"ver": "23.1.5.1410",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",
