@@ -18,9 +18,9 @@
 				"textButtonDelete": "Delete",
 				"textToastDelete": "Deleted",
 				"typeButtonDelete": "Reject",
-				"iconButtonAttachment": "",
-				"textButtonAttachment": "Add Attachment",
-				"typeButtonAttachment": "Transparent",
+				"iconButtonAttachment": "sap-icon://fa-solid/upload",
+				"textButtonAttachment": "Save Before Adding Image HERE",
+				"typeButtonAttachment": "Critical",
 				"tab0Text": "General",
 				"tabAText": "Show us",
 				"tab1Text": "Show us!",
@@ -28,9 +28,9 @@
 				"tab3Text": "Tab 3",
 				"tab4Text": "Tab 4",
 				"tab5Text": "Tab 5",
-				"enableClose": true,
+				"enableClose": false,
 				"enableSave": true,
-				"enableDelete": true,
+				"enableDelete": false,
 				"enableAttachment": false,
 				"enableTab1": false,
 				"enableTab2": false,
@@ -38,7 +38,7 @@
 				"enableTab4": false,
 				"enableTab5": false,
 				"enableUppercase": false,
-				"enablePadding": false,
+				"enablePadding": true,
 				"title": "Quick Add Activity",
 				"avatarIcon": "sap-icon://fa-solid/apple-alt",
 				"avatarBackgroundColor": "Accent2",
@@ -66,33 +66,15 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "category",
-				"label": "Category",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "comment",
-				"label": "Comment",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "date",
 				"label": "Date",
 				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
@@ -102,14 +84,32 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedAt",
 				"label": "Updated At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -175,7 +175,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1249",
+	"ver": "23.1.5.143",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

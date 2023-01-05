@@ -76,7 +76,7 @@
 			{
 				"visible": true,
 				"name": "createdBy",
-				"text": "Created By",
+				"text": "TOP 10",
 				"fieldPos": 1
 			},
 			{
@@ -107,7 +107,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1118",
+	"ver": "23.1.5.146",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
