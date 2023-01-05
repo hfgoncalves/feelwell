@@ -26,11 +26,13 @@
 				"showFilter": false
 			},
 			"table": {
-				"showSeparators": "All",
+				"showSeparators": "None",
 				"alternateRowColors": false,
-				"enableCompact": false,
+				"enableCompact": true,
 				"fixedLayout": true,
-				"inset": false
+				"inset": false,
+				"initialSortField": "points",
+				"initialSortOrder": "DESC"
 			}
 		},
 		"fieldCatalog": [
@@ -81,7 +83,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1155",
+	"ver": "23.1.5.1357",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_table",
