@@ -152,7 +152,13 @@
 			"name": "fw_activity"
 		}
 	],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "b95cdf3d-6d8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_launchpad",
+			"description": "Nep'TUNED 2023"
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
