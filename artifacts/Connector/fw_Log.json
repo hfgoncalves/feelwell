@@ -1,0 +1,18 @@
+{
+	"id": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:42:51.926Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "8cc9b91f-678c-ed11-9f5e-0022489e2f99",
+		"previewable": true,
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "fw_Log",
+	"description": "Activity Log",
+	"group": null,
+	"type": "T",
+	"ver": "23.1.4.214",
+	"disabled": false,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}

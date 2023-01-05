@@ -1,0 +1,49 @@
+{
+	"id": "5e2fb5f9-658c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:28:34.186Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "1909ca9d-bf1e-46bb-ed0b-f901e1453142",
+			"fieldName": "category",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Category",
+			"isNullable": true
+		},
+		{
+			"id": "b6b4ba55-44a4-4321-fe81-a93aef14f5e4",
+			"fieldName": "points",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Points"
+		},
+		{
+			"id": "a270320b-01c7-455a-c405-54bb6092e92c",
+			"fieldName": "per",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Timeframe",
+			"isNullable": true
+		},
+		{
+			"id": "fbaa9d94-2b80-48e1-a160-654bddab9ba0",
+			"fieldName": "comment",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "Explanation",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fw_categories",
+	"description": null,
+	"ver": "23.1.4.2047",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"rolesRead": [],
+	"rolesWrite": []
+}

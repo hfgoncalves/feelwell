@@ -1,0 +1,6 @@
+.textTitle{
+  font-size: 1rem;
+  text-shadow: 2px 2px #f0af241c;
+
+  
+}

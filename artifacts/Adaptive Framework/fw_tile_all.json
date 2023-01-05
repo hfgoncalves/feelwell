@@ -1,0 +1,127 @@
+{
+	"id": "13589a92-ed8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T11:39:12.336Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"splitter1Resizable": true,
+				"splitter2Resizable": true,
+				"splitter3Resizable": true,
+				"app1Resizable": true,
+				"app2Resizable": true,
+				"app3Resizable": true,
+				"app4Resizable": true,
+				"app5Resizable": true,
+				"app6Resizable": true,
+				"app7Resizable": true,
+				"app8Resizable": true,
+				"app9Resizable": true,
+				"_app1Nav": {
+					"destinationType": "A",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "95151144-7A8C-ED11-9F5E-0022489E2F99",
+					"keyField": [],
+					"destinationTargetA": "mypointsmyposition"
+				},
+				"_app2Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetA": "mypointsmyposition",
+					"keyField": [],
+					"destinationTargetF": "7C7558DA-EF8C-ED11-9F5E-0022489E2F99"
+				},
+				"_app4Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "95151144-7A8C-ED11-9F5E-0022489E2F99",
+					"keyField": []
+				}
+			},
+			"form": {},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "70640ddd-be0e-4b8b-df7e-d44c9a1c1a67",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "fw_tile_all",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.5.1156",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_splitter",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

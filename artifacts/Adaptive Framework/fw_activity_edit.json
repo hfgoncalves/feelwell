@@ -1,0 +1,202 @@
+{
+	"id": "2ca8b13c-768c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T21:24:58.090Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "sap-icon://fa-regular/window-close",
+				"textButtonClose": "",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "sap-icon://save",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Accept",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Pictures please",
+				"tab1Text": "Show us!",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": true,
+				"enableAttachment": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": false,
+				"title": "Edit Activity",
+				"avatarIcon": "sap-icon://fa-solid/apple-alt",
+				"avatarBackgroundColor": "Accent2",
+				"tabAIcon": "sap-icon://picture",
+				"tab1Icon": "sap-icon://picture",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "C2648C6F-7F8C-ED11-9F5E-0022489E2F99",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": true,
+				"enableCentered": false,
+				"columnsL": "",
+				"formLayout": "",
+				"columnsM": "",
+				"labelSpanL": "",
+				"labelSpanM": ""
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "date",
+				"text": "When",
+				"fieldPos": 1,
+				"type": "DatePicker",
+				"description": "",
+				"columnLabel": "",
+				"scriptValue": "B3A2C321-E78C-ED11-9F5E-0022489E2F99"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "category",
+				"text": "",
+				"fieldPos": 2,
+				"columnLabel": "",
+				"type": "SingleSelectLookup",
+				"lookupTable": "fw_categories",
+				"lookupFieldKey": "category",
+				"lookupFieldText": "category",
+				"lookupFieldAdditional": "per",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"placeholder": "What"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "points",
+				"text": "Points",
+				"fieldPos": 3,
+				"type": "StepInput",
+				"stepInputMin": "1",
+				"columnLabel": "",
+				"stepInputTextAlign": "Center",
+				"default": "1"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "comment",
+				"text": "",
+				"fieldPos": 4,
+				"type": "Editor",
+				"columnLabel": "Tell us about it",
+				"enableNewForm": true
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "5f926722-4891-4f7a-9291-41518c38a30b",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "fw_activity_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.5.1253",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

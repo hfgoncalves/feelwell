@@ -1,0 +1,17 @@
+{
+	"id": "cfbc57dd-678c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:42:05.150Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "5e2fb5f9-658c-ed11-9f5e-0022489e2f99",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "fw_categories",
+	"description": "Categories",
+	"group": null,
+	"type": "T",
+	"ver": "23.1.4.1947",
+	"disabled": false,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}

@@ -1,0 +1,19 @@
+{
+	"id": "33ccff17-ea8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T11:14:18.116Z",
+	"createdBy": "admin",
+	"settings": {
+		"scriptRun": "2398d9dc-7a8c-ed11-9f5e-0022489e2f99",
+		"scriptSel": "9d9844fb-e98c-ed11-9f5e-0022489e2f99",
+		"hasDocumentation": false,
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "feelwellTotalPointPerUser",
+	"description": null,
+	"group": null,
+	"type": "S",
+	"ver": "23.1.5.1115",
+	"disabled": false,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}

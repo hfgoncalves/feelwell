@@ -1,0 +1,20 @@
+{
+	"id": "6a7c7872-e68c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T10:48:11.920Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "whoAmI",
+	"ver": "23.1.5.1052",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2298d9dc-7a8c-ed11-9f5e-0022489e2f99",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}

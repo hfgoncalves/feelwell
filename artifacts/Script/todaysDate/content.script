@@ -1,0 +1,7 @@
+var date = Date()
+
+console.log(date)
+
+result.data = date
+
+complete()

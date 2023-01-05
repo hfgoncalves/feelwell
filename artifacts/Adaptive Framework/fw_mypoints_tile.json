@@ -1,0 +1,119 @@
+{
+	"id": "95151144-7a8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T21:53:48.453Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "10",
+				"updateTime": "1",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableDelete": false,
+				"initialGroupField": "points",
+				"initialGroupOrder": "ASC"
+			},
+			"form": {
+				"enableCompact": true,
+				"filterExpandable": true,
+				"headerExpanded": true,
+				"showFilter": false
+			},
+			"table": {
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "column",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdBy",
+				"label": "Who",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 1
+			},
+			{
+				"visible": true,
+				"name": "points",
+				"text": "Points",
+				"enableFilter": false,
+				"fieldPos": 2,
+				"type": "value"
+			}
+		],
+		"defaultVariant": {
+			"id": "8b34c220-2c6c-459e-b99f-31282496a580",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "fw_mypoints_tile",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "33ccff17-ea8c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.5.1118",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,178 @@
+[
+	{
+		"id": "e50af70f-ea6e-42ee-a025-f981ee972c36",
+		"createdAt": "1672860891233",
+		"updatedAt": "1672917933462",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Perform a Random Act of Kindness",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "e33edab5-5a57-44e5-8728-a91f23a3184f",
+		"createdAt": "1672860792401",
+		"updatedAt": "1672917898214",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Exercise",
+		"points": "1",
+		"per": "1 per 30 Minutes",
+		"comment": null
+	},
+	{
+		"id": "d9223ed8-0225-4df8-963b-ed6ff24b131a",
+		"createdAt": "1672860719765",
+		"updatedAt": "1672917925403",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "No Coffee",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "b9051f81-432c-48cc-92c7-cd915b46effa",
+		"createdAt": "1672860748278",
+		"updatedAt": "1672917878921",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Cooking/Baking something new",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "adcb704a-9a67-4760-8c5e-9a67efea93c1",
+		"createdAt": "1672860763600",
+		"updatedAt": "1672917885975",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Drink minimum 2 Liters of water",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "ac601091-1d20-4f92-ab99-df24ba729356",
+		"createdAt": "1672860935132",
+		"updatedAt": "1672917941370",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Post a video of you completing a task",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "903c6794-8817-4cf4-a5ab-0b97ae760ceb",
+		"createdAt": "1672860776010",
+		"updatedAt": "1672917953139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Wear Neptune Gear",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "8e4c63b5-f332-499e-aab5-c344d20b0e61",
+		"createdAt": "1672860748278",
+		"updatedAt": "1672917929371",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "No Sweets/Chocolate",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "7fdb7e3a-7e31-4ab0-9f21-dc57f4054d88",
+		"createdAt": "1672860935132",
+		"updatedAt": "1672917937262",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Post a picture of you completing a task",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "5e214e7a-5a8d-450a-905f-68f5ad171f84",
+		"createdAt": "1672860861243",
+		"updatedAt": "1672917945496",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Read",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "4f56e4f4-2b17-4a6a-80f0-088c1a719fb7",
+		"createdAt": "1672860891233",
+		"updatedAt": "1672917902770",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Give a Compliment and mean it",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "460df8d5-c7c0-4506-83e4-1e18d5c54737",
+		"createdAt": "1672860719765",
+		"updatedAt": "1672917919993",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "No Alcohol",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "1a153024-5b77-44d2-b4ca-129a51bc325a",
+		"createdAt": "1672860843608",
+		"updatedAt": "1672917912059",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Go Outside",
+		"points": "1",
+		"per": "1 per Trip Outside",
+		"comment": null
+	},
+	{
+		"id": "155b747e-37df-4271-93f0-a33af567eac6",
+		"createdAt": "1672860719765",
+		"updatedAt": "1672917949277",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Sleep minimum of 8 Hrs.",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "06e3d682-5fa0-495b-b72e-b84414fb1ac5",
+		"createdAt": "1672860825501",
+		"updatedAt": "1672917916287",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Meditate",
+		"points": "1",
+		"per": "1 per Day",
+		"comment": null
+	},
+	{
+		"id": "05083fb6-3ef5-44ed-a698-c794bab1e554",
+		"createdAt": "1672860815909",
+		"updatedAt": "1672917958537",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Yoga",
+		"points": "1",
+		"per": "1 per 15 Minutes",
+		"comment": null
+	}
+]

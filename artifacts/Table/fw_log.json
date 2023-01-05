@@ -1,0 +1,47 @@
+{
+	"id": "8cc9b91f-678c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:36:47.550Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "7571f3cf-36cc-4ddf-feb8-b8daf67dedf4",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date",
+			"isNullable": true
+		},
+		{
+			"id": "67a91b31-e66d-4486-921d-9a65a65c05e0",
+			"fieldName": "category",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Category"
+		},
+		{
+			"id": "629a3471-8bcb-40b7-ba1d-5df73c70c64b",
+			"fieldName": "points",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Points"
+		},
+		{
+			"id": "e7b19239-fdcb-4c37-c6c7-c5b7c6c45fd6",
+			"fieldName": "comment",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Comment",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fw_log",
+	"description": "Log of Activities",
+	"ver": "23.1.5.1411",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"rolesRead": [],
+	"rolesWrite": []
+}

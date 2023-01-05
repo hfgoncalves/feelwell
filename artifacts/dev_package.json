@@ -1,0 +1,183 @@
+{
+	"id": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:27:52.590Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/hfgoncalves/feelwell"
+	},
+	"name": "com.neptune.feelwell",
+	"description": "Feel Well ",
+	"ver": "23.1.5.1315",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e6288d41-ee8c-ed11-9f5e-0022489e2f99",
+			"application": "mypointsmyposition",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "dc596909-ee8c-ed11-9f5e-0022489e2f99",
+			"name": "MyPointsMyPosition",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "8cc9b91f-678c-ed11-9f5e-0022489e2f99",
+			"name": "fw_log",
+			"description": "Log of Activities"
+		},
+		{
+			"id": "5e2fb5f9-658c-ed11-9f5e-0022489e2f99",
+			"name": "fw_categories",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "b3a2c321-e78c-ed11-9f5e-0022489e2f99",
+			"name": "todaysDate",
+			"description": null
+		},
+		{
+			"id": "9d9844fb-e98c-ed11-9f5e-0022489e2f99",
+			"name": "rankingSelect",
+			"description": null
+		},
+		{
+			"id": "6a7c7872-e68c-ed11-9f5e-0022489e2f99",
+			"name": "whoAmI",
+			"description": null
+		},
+		{
+			"id": "35e0a1bb-ea8c-ed11-9f5e-0022489e2f99",
+			"name": "myPositionMyPoints",
+			"description": null
+		},
+		{
+			"id": "2398d9dc-7a8c-ed11-9f5e-0022489e2f99",
+			"name": "rankiing",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "2298d9dc-7a8c-ed11-9f5e-0022489e2f99",
+			"name": "feelwell",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "de927693-818c-ed11-9f5e-0022489e2f99",
+			"name": "fw_activity_quick",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "bb3c157d-688c-ed11-9f5e-0022489e2f99",
+			"name": "fw_md_update",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "ab92e91a-688c-ed11-9f5e-0022489e2f99",
+			"name": "fw_md_categories_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "95151144-7a8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_mypoints_tile",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "7c7558da-ef8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_list_log",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "669763a4-718c-ed11-9f5e-0022489e2f99",
+			"name": "fw_status",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "2ca8b13c-768c-ed11-9f5e-0022489e2f99",
+			"name": "fw_activity_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "13589a92-ed8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_tile_all",
+			"description": "",
+			"application": "planet9_adaptive_splitter"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
+			"description": null,
+			"name": "fw_stats"
+		},
+		{
+			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
+			"description": null,
+			"name": "fw_activities_list"
+		},
+		{
+			"id": "1ef096c0-6b8c-ed11-9f5e-0022489e2f99",
+			"description": null,
+			"name": "fw_md_categories"
+		}
+	],
+	"category": [
+		{
+			"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
+			"description": null,
+			"name": "fw_activity"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "cfbc57dd-678c-ed11-9f5e-0022489e2f99",
+			"name": "fw_categories",
+			"description": "Categories"
+		},
+		{
+			"id": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
+			"name": "fw_Log",
+			"description": "Activity Log"
+		},
+		{
+			"id": "33ccff17-ea8c-ed11-9f5e-0022489e2f99",
+			"name": "feelwellTotalPointPerUser",
+			"description": null
+		}
+	],
+	"events": [],
+	"media_library": []
+}

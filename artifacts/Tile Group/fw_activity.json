@@ -1,0 +1,88 @@
+{
+	"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T20:16:53.550Z",
+	"createdBy": "admin",
+	"translation": [],
+	"tilesOrder": [
+		"89bb71df-6b8c-ed11-9f5e-0022489e2f99",
+		"b5f7cfe1-798c-ed11-9f5e-0022489e2f99"
+	],
+	"tilegroupsOrder": [
+		"92eeb911-6c8c-ed11-9f5e-0022489e2f99"
+	],
+	"configMessage": {},
+	"title": null,
+	"subTitle": null,
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "23.1.4.2151",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "fw_activity",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
+			"name": "fw_stats",
+			"title": "Ranking",
+			"ver": "23.1.5.137"
+		},
+		{
+			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_activities_list",
+			"title": "Register Activity",
+			"ver": "23.1.4.2248"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "92eeb911-6c8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_md",
+			"title": "Master Data",
+			"ver": "23.1.4.2012"
+		}
+	]
+}

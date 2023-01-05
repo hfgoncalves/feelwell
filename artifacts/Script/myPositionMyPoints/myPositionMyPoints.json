@@ -1,0 +1,26 @@
+{
+	"id": "35e0a1bb-ea8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T11:18:52.650Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "8CC9B91F-678C-ED11-9F5E-0022489E2F99",
+			"name": "fw_log",
+			"contextname": "fw_log"
+		}
+	],
+	"apis": [],
+	"name": "myPositionMyPoints",
+	"ver": "23.1.5.1251",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2298d9dc-7a8c-ed11-9f5e-0022489e2f99",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}

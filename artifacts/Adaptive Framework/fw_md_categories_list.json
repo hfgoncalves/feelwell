@@ -1,0 +1,207 @@
+{
+	"id": "ab92e91a-688c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T19:43:48.466Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "sap-icon://fa-regular/window-close",
+				"textButtonClose": "",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "sap-icon://create",
+				"textButtonCreate": "Add Activity",
+				"typeButtonCreate": "Accept",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://synchronize",
+				"textButtonRun": "",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Activity",
+				"subTitle": "Types of Activity",
+				"avatarIcon": "sap-icon://nutrition-activity",
+				"avatarBackgroundColor": "Accent3",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "BB3C157D-688C-ED11-9F5E-0022489E2F99",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "BB3C157D-688C-ED11-9F5E-0022489E2F99",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "per",
+				"label": "Timeframe",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comment",
+				"label": "Explanation",
+				"type": "json",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "category",
+				"text": "Category",
+				"fieldPos": 1
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "points",
+				"text": "Points",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "per",
+				"text": "Timeframe",
+				"fieldPos": 3
+			}
+		],
+		"defaultVariant": {
+			"id": "f8fa9dc3-e923-458b-c36d-fd17c52e359e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "fw_md_categories_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "cfbc57dd-678c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.4.1953",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

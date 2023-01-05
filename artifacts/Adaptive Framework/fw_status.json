@@ -1,0 +1,175 @@
+{
+	"id": "669763a4-718c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-04T20:52:04.576Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": false,
+				"enableRightPanel": false,
+				"enableVariant": true,
+				"showLeftPanel": false,
+				"showRightPanel": false,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "KPI's"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "category",
+				"text": "Activity",
+				"fieldPos": 1,
+				"type": "MultiSelectLookup",
+				"lookupTable": "fw_categories",
+				"lookupFieldKey": "category",
+				"lookupFieldText": "category"
+			},
+			{
+				"visible": true,
+				"name": "createdBy",
+				"text": "Who",
+				"fieldPos": 2
+			},
+			{
+				"visible": true,
+				"name": "createdAt",
+				"text": "Dates",
+				"fieldPos": 3,
+				"type": "DateRange"
+			}
+		],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "createdAt",
+				"text": "Created At",
+				"enableFilter": false,
+				"fieldPos": 4
+			},
+			{
+				"filter": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 5
+			},
+			{
+				"filter": true,
+				"name": "points",
+				"text": "Points",
+				"enableFilter": false,
+				"fieldPos": 6
+			},
+			{
+				"filter": true,
+				"name": "category",
+				"text": "Category",
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "bef903b9-17ec-4f31-9d0f-500891473989",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [
+				{
+					"filter": true,
+					"name": "createdAt",
+					"text": "Created At",
+					"enableFilter": false,
+					"fieldPos": 4,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "points",
+					"text": "Points",
+					"enableFilter": false,
+					"fieldPos": 5,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Area Spline Chart",
+			"aggregatorName": "Integer Sum"
+		},
+		"id": "669763A4-718C-ED11-9F5E-0022489E2F99"
+	},
+	"name": "fw_status",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.5.131",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

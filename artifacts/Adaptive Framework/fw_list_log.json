@@ -1,0 +1,93 @@
+{
+	"id": "7c7558da-ef8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T11:55:31.690Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0,
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"enableRun": false,
+				"enableCreate": false,
+				"enableDelete": false
+			},
+			"form": {
+				"enableCompact": false,
+				"filterExpandable": true,
+				"headerExpanded": true,
+				"showFilter": false
+			},
+			"table": {
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdBy",
+				"label": "Who",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "points",
+				"label": "Points",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "createdBy",
+				"text": "Who",
+				"fieldPos": 1
+			},
+			{
+				"visible": true,
+				"name": "points",
+				"text": "Points",
+				"fieldPos": 2
+			}
+		],
+		"defaultVariant": {
+			"id": "85071f29-cdf2-466d-9cfb-1ea9ae74dd73",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "fw_list_log",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "33ccff17-ea8c-ed11-9f5e-0022489e2f99",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.1.5.1155",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_table",
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

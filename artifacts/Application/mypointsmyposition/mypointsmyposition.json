@@ -1,0 +1,208 @@
+{
+	"id": "e6288d41-ee8c-ed11-9f5e-0022489e2f99",
+	"createdAt": "2023-01-05T11:44:12.983Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "0466f16c-63d0-4549-e0c5-f599944f5c14",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "074dae6d-085a-47ee-a2b0-aa17bed94ab1",
+					"fieldName": "oPage",
+					"fieldParent": "0466f16c-63d0-4549-e0c5-f599944f5c14",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundDesign",
+							"grouping": "Properties",
+							"value": "Transparent",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "8bde5a66-08fd-4211-c343-943ad5d5f840",
+							"fieldName": "oHBox",
+							"fieldParent": "074dae6d-085a-47ee-a2b0-aa17bed94ab1",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiMediumMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "bc970f45-1bed-4d25-da98-a04fc183c58a",
+									"fieldName": "oTitle",
+									"fieldParent": "8bde5a66-08fd-4211-c343-943ad5d5f840",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Test",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "textTitle",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "level",
+											"grouping": "Properties",
+											"value": "H6",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "wrapping",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "a175e29d-7cfd-4d3c-e432-1bb95598d86a",
+					"fieldName": "oRestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "dc596909-ee8c-ed11-9f5e-0022489e2f99",
+					"restOperation": "f73b90b7-5c64-40dd-c86a-295e4d69baeb",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPI/ajaxSuccess.script",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.1.5.145",
+	"application": "mypointsmyposition",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [
+		{
+			"id": "dc596909-ee8c-ed11-9f5e-0022489e2f99",
+			"name": "MyPointsMyPosition",
+			"ver": "23.1.5.1145"
+		}
+	],
+	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99"
+}
