@@ -86,7 +86,7 @@
 										{
 											"attribute": "text",
 											"grouping": "Properties",
-											"value": "Test",
+											"value": "Make some activity first!",
 											"script": "",
 											"translation": []
 										},
@@ -161,9 +161,9 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.1.5.1452",
+	"ver": "23.1.5.1454",
 	"application": "mypointsmyposition",
-	"title": "",
+	"title": "No points yet",
 	"description": "",
 	"enableFileStorage": false,
 	"enableManifest": false,
