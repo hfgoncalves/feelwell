@@ -44,6 +44,17 @@
 		"comment": null
 	},
 	{
+		"id": "af4fac07-0a8d-ed11-9f60-002248a06e1d",
+		"createdAt": "1672930974572",
+		"updatedAt": "1672930974572",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Finishing a Book",
+		"points": "5",
+		"per": "5 Per Book",
+		"comment": null
+	},
+	{
 		"id": "adcb704a-9a67-4760-8c5e-9a67efea93c1",
 		"createdAt": "1672860763600",
 		"updatedAt": "1672917885975",

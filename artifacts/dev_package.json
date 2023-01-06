@@ -7,7 +7,7 @@
 	},
 	"name": "com.neptune.feelwell",
 	"description": "Feel Well ",
-	"ver": "23.1.5.147",
+	"ver": "23.1.5.1417",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -166,7 +166,13 @@
 		}
 	],
 	"certificates": [],
-	"role": [],
+	"role": [
+		{
+			"id": "9c394b43-058d-ed11-9f60-002248a06e1d",
+			"name": "Joe",
+			"description": null
+		}
+	],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],

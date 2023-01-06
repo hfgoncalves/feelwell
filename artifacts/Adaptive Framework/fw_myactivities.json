@@ -148,8 +148,7 @@
 				"name": "createdBy",
 				"text": "Created By",
 				"fieldPos": 1,
-				"sysvarValue": "Username",
-				"scriptValue": "6A7C7872-E68C-ED11-9F5E-0022489E2F99",
+				"sysvarValue": "UserName",
 				"selEqual": true,
 				"required": false
 			}
@@ -217,7 +216,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1349",
+	"ver": "23.1.6.1457",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
