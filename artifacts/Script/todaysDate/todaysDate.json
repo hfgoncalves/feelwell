@@ -7,7 +7,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "todaysDate",
-	"ver": "23.1.5.1054",
+	"ver": "23.1.11.959",
 	"description": null,
 	"content": "file:///content.script",
 	"useAsGlobalScript": false,

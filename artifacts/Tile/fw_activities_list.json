@@ -7,7 +7,7 @@
 	"settings": {
 		"adaptive": {
 			"id": "E7E281B3-738C-ED11-9F5E-0022489E2F99",
-			"idTile": "DE927693-818C-ED11-9F5E-0022489E2F99"
+			"idTile": "F5494BCD-9491-ED11-9F5F-0022489F9819"
 		}
 	},
 	"title": "Register Activity",
@@ -61,11 +61,11 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.1.4.2248",
+	"ver": "23.1.11.108",
 	"actionWebApp": "",
 	"name": "fw_activities_list",
 	"cardWidth": "Medium",
-	"cardHeight": "Tower",
+	"cardHeight": "Skyscraper",
 	"cardHeightFit": false,
 	"cardImage": null,
 	"cardButtonIcon": "sap-icon://list",
@@ -74,9 +74,9 @@
 	"imageRepeat": null,
 	"imageSize": null,
 	"imagePosition": null,
-	"openText": "See All Activities",
+	"openText": "Your Activities",
 	"imageHeight": null,
-	"bodyHeight": "",
+	"bodyHeight": "550px",
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",

@@ -1,7 +1,7 @@
 {
-	"id": "13589a92-ed8c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-05T11:39:12.336Z",
-	"createdBy": "admin",
+	"id": "f5494bcd-9491-ed11-9f5f-0022489f9819",
+	"createdAt": "2023-01-11T09:46:21.400Z",
+	"createdBy": "helder.goncalves@neptune-software.com",
 	"settings": {
 		"properties": {
 			"report": {
@@ -18,23 +18,21 @@
 				"app8Resizable": true,
 				"app9Resizable": true,
 				"_app1Nav": {
-					"destinationType": "A",
+					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "95151144-7A8C-ED11-9F5E-0022489E2F99",
-					"keyField": [],
-					"destinationTargetA": "mypointsmyposition"
+					"destinationTargetF": "DE927693-818C-ED11-9F5E-0022489E2F99",
+					"keyField": []
 				},
-				"app4Width": "",
-				"splitter2Width": "350px",
-				"splitter1Width": "150px",
 				"_app4Nav": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "7C7558DA-EF8C-ED11-9F5E-0022489E2F99",
+					"destinationTargetF": "61065BBB-6990-ED11-9F5F-0022489F9819",
 					"keyField": []
-				}
+				},
+				"splitter1Width": "300px",
+				"splitter2Width": "250px"
 			},
 			"form": {},
 			"table": {}
@@ -92,7 +90,7 @@
 		"fieldsSel": [],
 		"fieldsRun": [],
 		"defaultVariant": {
-			"id": "70640ddd-be0e-4b8b-df7e-d44c9a1c1a67",
+			"id": "626b027a-6ba9-454c-b4f3-84fbac595ddc",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -102,7 +100,7 @@
 			"exclusions": {}
 		}
 	},
-	"name": "fw_tile_all",
+	"name": "fw_tile_quick",
 	"description": "",
 	"group": "",
 	"type": "C",
@@ -110,7 +108,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.11.837",
+	"ver": "23.1.11.108",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_splitter",

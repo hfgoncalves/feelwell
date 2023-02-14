@@ -5,7 +5,9 @@
 	"translation": [],
 	"tilesOrder": [
 		"89bb71df-6b8c-ed11-9f5e-0022489e2f99",
-		"b5f7cfe1-798c-ed11-9f5e-0022489e2f99"
+		"bc62c561-ca90-ed11-9f5f-0022489f9819",
+		"b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
+		"227245a9-9891-ed11-9f5f-0022489f9819"
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
@@ -28,7 +30,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.1.5.1331",
+	"ver": "23.1.11.1014",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -63,16 +65,28 @@
 	"roles": [],
 	"tiles": [
 		{
+			"id": "bc62c561-ca90-ed11-9f5f-0022489f9819",
+			"name": "fw_activities_list_all",
+			"title": "Everyone Else Activities",
+			"ver": "23.1.10.946"
+		},
+		{
 			"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
 			"name": "fw_stats",
 			"title": "Ranking",
-			"ver": "23.1.5.137"
+			"ver": "23.1.11.837"
 		},
 		{
 			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
 			"name": "fw_activities_list",
 			"title": "Register Activity",
-			"ver": "23.1.4.2248"
+			"ver": "23.1.11.108"
+		},
+		{
+			"id": "227245a9-9891-ed11-9f5f-0022489f9819",
+			"name": "fw_stats_tile",
+			"title": "Ranking",
+			"ver": "23.1.11.1014"
 		}
 	],
 	"tilegroups": []

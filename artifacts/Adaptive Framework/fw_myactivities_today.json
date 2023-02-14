@@ -1,11 +1,11 @@
 {
-	"id": "e7e281b3-738c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T21:06:48.916Z",
-	"createdBy": "admin",
+	"id": "61065bbb-6990-ed11-9f5f-0022489f9819",
+	"createdAt": "2023-01-09T22:05:31.773Z",
+	"createdBy": "helder.goncalves@neptune-software.com",
 	"settings": {
 		"properties": {
 			"report": {
-				"showIcon": true,
+				"showIcon": false,
 				"actionButtonLeft": false,
 				"iconButtonClose": "sap-icon://fa-regular/window-close",
 				"textButtonClose": "",
@@ -26,45 +26,36 @@
 				"textButtonRun": "",
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
-				"enableCreate": true,
-				"enableClose": true,
-				"enableDelete": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
 				"enableExport": false,
 				"enableImport": false,
 				"enableMultiSelect": false,
 				"enableVariant": false,
-				"hideHeader": false,
+				"hideHeader": true,
 				"autoRun": true,
 				"autoRunFocus": true,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"title": "My Activities",
-				"avatarIcon": "sap-icon://fa-solid/apple-alt",
-				"avatarBackgroundColor": "Accent2",
+				"title": "My Last 10 Activities",
+				"avatarIcon": "",
+				"avatarBackgroundColor": "",
+				"paginationRows": "15",
+				"updateTime": "1",
 				"_navigationCreate": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
 					"destinationTargetF": "2CA8B13C-768C-ED11-9F5E-0022489E2F99",
 					"keyField": []
-				},
-				"_navigationItemPress": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "2CA8B13C-768C-ED11-9F5E-0022489E2F99",
-					"keyField": [
-						{
-							"fieldName": "id",
-							"key": "id",
-							"value": ""
-						}
-					]
 				}
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"filterExpandable": true,
+				"showFilter": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -146,13 +137,19 @@
 		],
 		"fieldsSel": [
 			{
-				"visible": false,
+				"visible": true,
 				"name": "createdBy",
 				"text": "Created By",
 				"fieldPos": 1,
-				"sysvarValue": "UserName",
-				"selEqual": true,
-				"required": false
+				"sysvarValue": "UserName"
+			},
+			{
+				"visible": true,
+				"name": "date",
+				"text": "Date",
+				"fieldPos": 2,
+				"type": "DateRange",
+				"scriptValue": "B3A2C321-E78C-ED11-9F5E-0022489E2F99"
 			}
 		],
 		"fieldsRun": [
@@ -163,34 +160,20 @@
 				"enableSort": true,
 				"visible": true,
 				"name": "category",
-				"text": "Activity",
-				"fieldPos": 2,
+				"text": "Activity so far today",
+				"fieldPos": 3,
 				"hAlign": "Begin"
 			},
 			{
 				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
+				"popinDisplay": "Block",
 				"enableFilter": false,
 				"enableSort": true,
 				"visible": true,
 				"name": "points",
 				"text": "Points",
-				"fieldPos": 3,
-				"minScreenWidth": "Tablet",
-				"demandPopin": true
-			},
-			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": false,
-				"enableSort": true,
-				"visible": true,
-				"name": "date",
-				"text": "When",
 				"fieldPos": 4,
-				"formatter": "date01",
-				"minScreenWidth": "Tablet",
-				"demandPopin": true
+				"minScreenWidth": ""
 			}
 		],
 		"defaultVariant": {
@@ -204,7 +187,7 @@
 			"exclusions": {}
 		}
 	},
-	"name": "fw_myactivities",
+	"name": "fw_myactivities_today",
 	"description": "",
 	"group": "",
 	"type": "C",
@@ -212,10 +195,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.13.843",
+	"ver": "23.1.11.102",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list",
+	"application": "planet9_adaptive_tile_table",
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"roles": [],
 	"scriptSelObj": null,

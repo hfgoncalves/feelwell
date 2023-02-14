@@ -38,9 +38,9 @@
 	"foreignKeys": [],
 	"name": "fw_log",
 	"description": "Log of Activities",
-	"ver": "23.1.5.1411",
+	"ver": "23.2.14.1132",
 	"enableAudit": false,
-	"includeDataInPackage": false,
+	"includeDataInPackage": true,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"rolesRead": [],
 	"rolesWrite": []

@@ -5,7 +5,7 @@
 	"settings": {
 		"properties": {
 			"report": {
-				"paginationRows": "10",
+				"paginationRows": "5000",
 				"updateTime": "1",
 				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
@@ -18,7 +18,7 @@
 				"enableRun": true,
 				"enableCreate": false,
 				"enableDelete": false,
-				"initialGroupField": "points",
+				"initialGroupField": "createdBy",
 				"initialGroupOrder": "ASC"
 			},
 			"form": {
@@ -34,7 +34,7 @@
 				"fixedLayout": true,
 				"inset": false,
 				"titleAlign": "center",
-				"chartHeight": 250,
+				"chartHeight": "400",
 				"chartType": "column",
 				"enableSorting": false,
 				"enableMonochrome": false,
@@ -59,14 +59,50 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "createdBy",
-				"label": "Who",
-				"type": "text",
+				"name": "date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
 				"name": "points",
 				"label": "Points",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -75,9 +111,10 @@
 		"fieldsRun": [
 			{
 				"visible": true,
-				"name": "createdBy",
-				"text": "TOP 10",
-				"fieldPos": 1
+				"name": "category",
+				"text": "Category",
+				"fieldPos": 1,
+				"type": "category"
 			},
 			{
 				"visible": true,
@@ -103,11 +140,11 @@
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "33ccff17-ea8c-ed11-9f5e-0022489e2f99",
+	"connectorid": "9b5d3cf9-678c-ed11-9f5e-0022489e2f99",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.146",
+	"ver": "23.1.11.1012",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",

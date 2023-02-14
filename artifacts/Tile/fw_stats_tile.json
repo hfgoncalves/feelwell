@@ -1,13 +1,13 @@
 {
-	"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T21:51:03.613Z",
-	"createdBy": "admin",
+	"id": "227245a9-9891-ed11-9f5f-0022489f9819",
+	"createdAt": "2023-01-11T10:13:58.943Z",
+	"createdBy": "helder.goncalves@neptune-software.com",
 	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
 			"id": "669763A4-718C-ED11-9F5E-0022489E2F99",
-			"idTile": "13589A92-ED8C-ED11-9F5E-0022489E2F99"
+			"idTile": "95151144-7A8C-ED11-9F5E-0022489E2F99"
 		}
 	},
 	"title": "Ranking",
@@ -61,9 +61,9 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.1.11.837",
+	"ver": "23.1.11.1014",
 	"actionWebApp": "",
-	"name": "fw_stats",
+	"name": "fw_stats_tile",
 	"cardWidth": "Wider",
 	"cardHeight": "Skyscraper",
 	"cardHeightFit": false,

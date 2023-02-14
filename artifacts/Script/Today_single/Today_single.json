@@ -1,24 +1,18 @@
 {
-	"id": "2398d9dc-7a8c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T21:58:14.703Z",
-	"createdBy": "admin",
+	"id": "ffc1d9cd-0292-ed11-9f5f-0022489f9819",
+	"createdAt": "2023-01-11T22:53:46.940Z",
+	"createdBy": "helder.goncalves@neptune-software.com",
 	"globalScripts": [],
 	"externalModules": [],
-	"entitySets": [
-		{
-			"id": "8CC9B91F-678C-ED11-9F5E-0022489E2F99",
-			"name": "fw_log",
-			"contextname": "fw_log"
-		}
-	],
+	"entitySets": [],
 	"apis": [],
-	"name": "rankiing",
-	"ver": "23.1.9.1224",
+	"name": "Today_single",
+	"ver": "23.1.11.2254",
 	"description": null,
 	"content": "file:///content.script",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
-	"lastRunSuccessful": true,
+	"lastRunSuccessful": false,
 	"isTypescript": false,
 	"language": "javascript",
 	"jsscriptGroup": "2298d9dc-7a8c-ed11-9f5e-0022489e2f99",

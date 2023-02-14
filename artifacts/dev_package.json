@@ -41,6 +41,11 @@
 	],
 	"jsclass": [
 		{
+			"id": "ffc1d9cd-0292-ed11-9f5f-0022489f9819",
+			"name": "Today_single",
+			"description": null
+		},
+		{
 			"id": "b3a2c321-e78c-ed11-9f5e-0022489e2f99",
 			"name": "todaysDate",
 			"description": null
@@ -78,6 +83,12 @@
 	"rulesengine": [],
 	"reports": [
 		{
+			"id": "f5494bcd-9491-ed11-9f5f-0022489f9819",
+			"name": "fw_tile_quick",
+			"description": "",
+			"application": "planet9_adaptive_splitter"
+		},
+		{
 			"id": "e7e281b3-738c-ed11-9f5e-0022489e2f99",
 			"name": "fw_myactivities",
 			"description": "",
@@ -108,16 +119,34 @@
 			"application": "planet9_adaptive_tile_chart"
 		},
 		{
+			"id": "94cf9c92-c990-ed11-9f5f-0022489f9819",
+			"name": "fw_activity_display",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
 			"id": "7c7558da-ef8c-ed11-9f5e-0022489e2f99",
 			"name": "fw_list_log",
 			"description": "",
 			"application": "planet9_adaptive_tile_table"
 		},
 		{
+			"id": "68a7d53f-c990-ed11-9f5f-0022489f9819",
+			"name": "fw_allactivities",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "669763a4-718c-ed11-9f5e-0022489e2f99",
 			"name": "fw_status",
 			"description": "",
 			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "61065bbb-6990-ed11-9f5f-0022489f9819",
+			"name": "fw_myactivities_today",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
 		},
 		{
 			"id": "2ca8b13c-768c-ed11-9f5e-0022489e2f99",
@@ -136,6 +165,11 @@
 	"api_group": [],
 	"tile": [
 		{
+			"id": "bc62c561-ca90-ed11-9f5f-0022489f9819",
+			"description": null,
+			"name": "fw_activities_list_all"
+		},
+		{
 			"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
 			"description": null,
 			"name": "fw_stats"
@@ -144,6 +178,11 @@
 			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
 			"description": null,
 			"name": "fw_activities_list"
+		},
+		{
+			"id": "227245a9-9891-ed11-9f5f-0022489f9819",
+			"description": null,
+			"name": "fw_stats_tile"
 		},
 		{
 			"id": "1ef096c0-6b8c-ed11-9f5e-0022489e2f99",

@@ -105,7 +105,8 @@
 				"name": "createdAt",
 				"text": "Created At",
 				"enableFilter": false,
-				"fieldPos": 4
+				"fieldPos": 4,
+				"formatter": "date01"
 			},
 			{
 				"filter": true,
@@ -135,7 +136,7 @@
 				{
 					"filter": true,
 					"name": "createdBy",
-					"text": "Created By",
+					"text": "Person",
 					"fieldPos": 5,
 					"visible": false,
 					"filterType": "Transparent"
@@ -177,7 +178,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1410",
+	"ver": "23.1.11.1352",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",

@@ -40,7 +40,8 @@
 		"pincodeLength": 4,
 		"pincodeKeyIterations": 40000,
 		"enableWebAuth": true,
-		"autolock": 0
+		"autolock": 0,
+		"enableTopMenu": false
 	},
 	"enhancement": [],
 	"name": "fw_launchpad",
@@ -89,7 +90,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.1.5.1432",
+	"ver": "23.1.11.834",
 	"pwa_enable": true,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -105,7 +106,7 @@
 			"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
 			"name": "fw_activity",
 			"title": null,
-			"ver": "23.1.5.1331"
+			"ver": "23.1.11.1014"
 		}
 	]
 }

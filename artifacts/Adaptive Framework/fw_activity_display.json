@@ -1,7 +1,7 @@
 {
-	"id": "2ca8b13c-768c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T21:24:58.090Z",
-	"createdBy": "admin",
+	"id": "94cf9c92-c990-ed11-9f5f-0022489f9819",
+	"createdAt": "2023-01-10T09:31:35.093Z",
+	"createdBy": "helder.goncalves@neptune-software.com",
 	"settings": {
 		"properties": {
 			"report": {
@@ -19,18 +19,18 @@
 				"textToastDelete": "Deleted",
 				"typeButtonDelete": "Reject",
 				"iconButtonAttachment": "",
-				"textButtonAttachment": "Add Attachment",
+				"textButtonAttachment": "",
 				"typeButtonAttachment": "Transparent",
 				"tab0Text": "General",
-				"tabAText": "Pictures please",
+				"tabAText": "Some Pictures",
 				"tab1Text": "Show us!",
 				"tab2Text": "Tab 2",
 				"tab3Text": "Tab 3",
 				"tab4Text": "Tab 4",
 				"tab5Text": "Tab 5",
 				"enableClose": true,
-				"enableSave": true,
-				"enableDelete": true,
+				"enableSave": false,
+				"enableDelete": false,
 				"enableAttachment": true,
 				"enableTab1": false,
 				"enableTab2": false,
@@ -39,7 +39,7 @@
 				"enableTab5": false,
 				"enableUppercase": false,
 				"enablePadding": false,
-				"title": "Edit Activity",
+				"title": "Display Activity",
 				"avatarIcon": "sap-icon://fa-solid/apple-alt",
 				"avatarBackgroundColor": "Accent2",
 				"tabAIcon": "sap-icon://picture",
@@ -71,33 +71,15 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "category",
-				"label": "Category",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "comment",
-				"label": "Comment",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "date",
 				"label": "Date",
 				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
@@ -107,8 +89,20 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedAt",
 				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
@@ -117,50 +111,55 @@
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
 			{
-				"editable": true,
+				"editable": false,
 				"visible": true,
 				"name": "date",
 				"text": "When",
 				"fieldPos": 1,
-				"type": "DatePicker",
+				"type": "Input",
 				"description": "",
-				"columnLabel": "",
-				"scriptValue": "FFC1D9CD-0292-ED11-9F5F-0022489F9819"
+				"columnLabel": ""
 			},
 			{
-				"editable": true,
+				"editable": false,
 				"visible": true,
 				"name": "category",
 				"text": "",
 				"fieldPos": 2,
 				"columnLabel": "",
-				"type": "SingleSelectLookup",
+				"type": "Input",
 				"lookupTable": "fw_categories",
 				"lookupFieldKey": "category",
 				"lookupFieldText": "category",
 				"lookupFieldAdditional": "per",
 				"lookupShowOnlyText": true,
-				"required": true,
+				"required": false,
 				"placeholder": "What"
 			},
 			{
-				"editable": true,
+				"editable": false,
 				"visible": true,
 				"name": "points",
 				"text": "Points",
 				"fieldPos": 3,
-				"type": "StepInput",
+				"type": "Input",
 				"stepInputMin": "1",
 				"columnLabel": "",
 				"stepInputTextAlign": "Center",
 				"default": "1"
 			},
 			{
-				"editable": true,
+				"editable": false,
 				"visible": true,
 				"name": "comment",
 				"text": "",
@@ -182,7 +181,7 @@
 			"exclusions": {}
 		}
 	},
-	"name": "fw_activity_edit",
+	"name": "fw_activity_display",
 	"description": "",
 	"group": "",
 	"type": "C",
@@ -190,7 +189,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.11.2255",
+	"ver": "23.1.10.934",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

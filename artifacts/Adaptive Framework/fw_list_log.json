@@ -29,7 +29,7 @@
 				"showSeparators": "None",
 				"alternateRowColors": false,
 				"enableCompact": true,
-				"fixedLayout": true,
+				"fixedLayout": false,
 				"inset": false,
 				"initialSortField": "points",
 				"initialSortOrder": "DESC"
@@ -55,13 +55,15 @@
 				"visible": true,
 				"name": "createdBy",
 				"text": "Who",
-				"fieldPos": 1
+				"fieldPos": 1,
+				"enableSort": false
 			},
 			{
 				"visible": true,
 				"name": "points",
 				"text": "Points",
-				"fieldPos": 2
+				"fieldPos": 2,
+				"enableSort": false
 			}
 		],
 		"defaultVariant": {
@@ -83,7 +85,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.5.1357",
+	"ver": "23.1.11.832",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_table",

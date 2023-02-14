@@ -40,7 +40,7 @@
 	"foreignKeys": [],
 	"name": "fw_categories",
 	"description": null,
-	"ver": "23.1.4.2047",
+	"ver": "23.2.14.1132",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
