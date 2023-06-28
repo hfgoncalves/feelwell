@@ -146,7 +146,7 @@
 							"attribute": "ajaxSuccess",
 							"grouping": "Events",
 							"value": "Anonymous Function",
-							"script": "file://event/neptune.restapi/oRestAPI/ajaxSuccess.script",
+							"script": "file://event/neptune.restapi/oRestAPI/ajaxSuccess.js",
 							"language": "javascript",
 							"translation": []
 						}
@@ -185,7 +185,8 @@
 	"ui5_language": null,
 	"ui5_url": "",
 	"cus_theme": "",
-	"css": "file:///css.script",
+	"css": "file:///css.css",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -197,6 +198,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [
 		{
 			"id": "dc596909-ee8c-ed11-9f5e-0022489e2f99",

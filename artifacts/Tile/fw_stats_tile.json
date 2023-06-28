@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "669763A4-718C-ED11-9F5E-0022489E2F99",
-			"idTile": "95151144-7A8C-ED11-9F5E-0022489E2F99"
+			"id": "669763a4-718c-ed11-9f5e-0022489e2f99",
+			"idTile": "95151144-7a8c-ed11-9f5e-0022489e2f99"
 		}
 	},
 	"title": "Ranking",
@@ -61,11 +61,11 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.1.11.1014",
+	"ver": "23.6.28.2035",
 	"actionWebApp": "",
 	"name": "fw_stats_tile",
 	"cardWidth": "Wider",
-	"cardHeight": "Skyscraper",
+	"cardHeight": "Tall",
 	"cardHeightFit": false,
 	"cardImage": null,
 	"cardButtonIcon": "sap-icon://fa-solid/rocket",
@@ -80,6 +80,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"roles": []
 }

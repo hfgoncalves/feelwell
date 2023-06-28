@@ -15,12 +15,24 @@
 			"application": "mypointsmyposition",
 			"title": "No points yet",
 			"description": ""
+		},
+		{
+			"id": "70b9f92a-3ab4-4f25-c370-837ff1ed2ef2",
+			"application": "summerpoints",
+			"title": "Neptunedsummer",
+			"description": ""
 		}
 	],
 	"api": [
 		{
 			"id": "dc596909-ee8c-ed11-9f5e-0022489e2f99",
 			"name": "MyPointsMyPosition",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "40daa1b7-a20f-ee11-907c-000d3ab3b177",
+			"name": "API fw_log",
 			"description": null,
 			"apiGroup": null
 		}
@@ -175,6 +187,11 @@
 			"name": "fw_stats"
 		},
 		{
+			"id": "95192eee-e014-ee11-907c-000d3ab3b177",
+			"description": null,
+			"name": "fw_add_activity"
+		},
+		{
 			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
 			"description": null,
 			"name": "fw_activities_list"
@@ -192,16 +209,31 @@
 	],
 	"category": [
 		{
+			"id": "9c13a80c-9c15-ee11-907c-000d3ab3b177",
+			"description": null,
+			"name": "fw_activity3"
+		},
+		{
+			"id": "7706b298-9915-ee11-907c-000d3ab3b177",
+			"description": null,
+			"name": "fw_activity2"
+		},
+		{
 			"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
 			"description": null,
 			"name": "fw_activity"
+		},
+		{
+			"id": "26c39408-9b15-ee11-907c-000d3ab3b177",
+			"description": null,
+			"name": "fw_activity1"
 		}
 	],
 	"launchpad": [
 		{
 			"id": "b95cdf3d-6d8c-ed11-9f5e-0022489e2f99",
 			"name": "fw_launchpad",
-			"description": "Nep'TUNED 2023"
+			"description": "Nep'TUNED"
 		}
 	],
 	"certificates": [],
@@ -236,5 +268,8 @@
 		}
 	],
 	"events": [],
-	"media_library": []
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

@@ -1,0 +1,7 @@
+.Textgreen {
+  color: green;
+}
+
+.sapMImground {
+  border-radius: 1rem;
+}

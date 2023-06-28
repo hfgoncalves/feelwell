@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "AB92E91A-688C-ED11-9F5E-0022489E2F99"
+			"id": "ab92e91a-688c-ed11-9f5e-0022489e2f99"
 		}
 	},
 	"title": "Manage Categories",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"roles": []
 }

@@ -1,13 +1,12 @@
 {
-	"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T20:16:53.550Z",
+	"id": "9c13a80c-9c15-ee11-907c-000d3ab3b177",
+	"createdAt": "2023-06-28T10:10:47.656Z",
 	"createdBy": "admin",
 	"translation": [],
-	"tilesOrder": [],
-	"tilegroupsOrder": [
-		"26c39408-9b15-ee11-907c-000d3ab3b177",
-		"7706b298-9915-ee11-907c-000d3ab3b177"
+	"tilesOrder": [
+		"227245a9-9891-ed11-9f5f-0022489f9819"
 	],
+	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": null,
 	"subTitle": null,
@@ -19,7 +18,7 @@
 	"backgroundColor": "",
 	"backgroundShade": null,
 	"type": null,
-	"image": "",
+	"image": null,
 	"icon": null,
 	"sort": null,
 	"inclFav": false,
@@ -28,7 +27,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.6.28.2040",
+	"ver": "23.6.28.1011",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -42,13 +41,13 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": null,
-	"name": "fw_activity",
+	"name": "fw_activity3",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
-	"cardPerRow": "Many",
+	"cardPerRow": null,
 	"cardStyle": null,
 	"cardHeightFit": false,
-	"imagePlacement": "center top",
+	"imagePlacement": null,
 	"imageRepeat": null,
 	"imageSize": null,
 	"imageTabletPlacement": null,
@@ -62,19 +61,13 @@
 	"cockpitTileGroup": false,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"roles": [],
-	"tiles": [],
-	"tilegroups": [
+	"tiles": [
 		{
-			"id": "7706b298-9915-ee11-907c-000d3ab3b177",
-			"name": "fw_activity2",
-			"title": null,
-			"ver": "23.6.28.1019"
-		},
-		{
-			"id": "26c39408-9b15-ee11-907c-000d3ab3b177",
-			"name": "fw_activity1",
-			"title": null,
-			"ver": "23.6.28.1112"
+			"id": "227245a9-9891-ed11-9f5f-0022489f9819",
+			"name": "fw_stats_tile",
+			"title": "Ranking",
+			"ver": "23.6.28.2035"
 		}
-	]
+	],
+	"tilegroups": []
 }

@@ -9,7 +9,7 @@
 	"name": "todaysDate",
 	"ver": "23.1.11.959",
 	"description": null,
-	"content": "file:///content.script",
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": true,

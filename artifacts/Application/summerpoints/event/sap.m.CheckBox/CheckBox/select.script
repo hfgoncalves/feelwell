@@ -1,0 +1,77 @@
+var oCheckBox = oEvent.getSource();
+const context = oEvent.oSource.getBindingContext();
+const data = context.getObject();
+var username = AppCache.userInfo.email;
+var today = new Date();
+var day = String(today.getDate()).padStart(2, "0");
+var month = String(today.getMonth() + 1).padStart(2, "0");
+var year = today.getFullYear();
+dateString = DatePicker.getDateValue();
+
+if(dateString == ""){
+var dateWithoutTime = year + "-" + month + "-" + day;
+}
+if(dateString != ""){
+var date = new Date(dateString);
+var year = date.getFullYear();
+var month = String(date.getMonth() + 1).padStart(2, "0");
+var day = String(date.getDate()).padStart(2, "0");
+var dateWithoutTime = year + "-" + month + "-" + day;
+}
+
+var dataAll = modelModelArrayAllData.getData();
+if (oCheckBox.getSelected()) {
+    if (username == undefined) {
+        username = "admin";
+    }
+    var shouldAdd = true;
+    for (var i = 0; i < dataAll.length; i++) {
+        if (
+            dataAll[i].createdBy === username &&
+            dataAll[i].keyDate === dateWithoutTime &&
+            dataAll[i].category === data.category
+        ) {
+            shouldAdd = false;
+            break;
+        }
+    }
+
+    if (shouldAdd) {
+        var sameDateCategoryData = dataAll.filter(function (item) {
+            return item.keyDate === data.keyDate && item.category === data.category;
+        });
+
+        if (sameDateCategoryData.length === 0) {
+            //alert()
+            var options = {
+                parameters: {
+                    where: "", // Optional
+                },
+                data: {
+                    keyDate: dateWithoutTime,
+                    date: date,
+                    category: data.category,
+                    points: "1",
+                    comment: "",
+                },
+            };
+            apiRestAPILogPost(options);
+
+        }
+    }
+} else {
+    sap.ui.core.BusyIndicator.show(0);
+    if (username == undefined) {
+        username = "admin";
+    }
+    var options = {
+        parameters: {
+            where: JSON.stringify({
+                createdBy: username,
+                keyDate: dateWithoutTime,
+                category: data.category,
+            }), // Optional
+        },
+    };
+    apiLogClean(options);
+}

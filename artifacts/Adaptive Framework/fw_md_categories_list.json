@@ -46,7 +46,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "BB3C157D-688C-ED11-9F5E-0022489E2F99",
+					"destinationTargetF": "bb3c157d-688c-ed11-9f5e-0022489e2f99",
 					"keyField": [
 						{
 							"fieldName": "id",
@@ -59,7 +59,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "BB3C157D-688C-ED11-9F5E-0022489E2F99",
+					"destinationTargetF": "bb3c157d-688c-ed11-9f5e-0022489e2f99",
 					"keyField": []
 				}
 			},

@@ -32,13 +32,19 @@
 			"isUnique": false,
 			"description": "Comment",
 			"isNullable": true
+		},
+		{
+			"id": "b32ebed6-a89c-43e0-c983-0cd0927c080c",
+			"fieldName": "keyDate",
+			"fieldType": "text",
+			"isUnique": false
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
 	"name": "fw_log",
 	"description": "Log of Activities",
-	"ver": "23.2.14.1132",
+	"ver": "23.6.27.1036",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",

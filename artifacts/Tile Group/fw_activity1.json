@@ -1,13 +1,14 @@
 {
-	"id": "3a551eba-6c8c-ed11-9f5e-0022489e2f99",
-	"createdAt": "2023-01-04T20:16:53.550Z",
+	"id": "26c39408-9b15-ee11-907c-000d3ab3b177",
+	"createdAt": "2023-06-28T10:03:31.333Z",
 	"createdBy": "admin",
 	"translation": [],
-	"tilesOrder": [],
-	"tilegroupsOrder": [
-		"26c39408-9b15-ee11-907c-000d3ab3b177",
-		"7706b298-9915-ee11-907c-000d3ab3b177"
+	"tilesOrder": [
+		"95192eee-e014-ee11-907c-000d3ab3b177",
+		"89bb71df-6b8c-ed11-9f5e-0022489e2f99",
+		"bc62c561-ca90-ed11-9f5f-0022489f9819"
 	],
+	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": null,
 	"subTitle": null,
@@ -19,7 +20,7 @@
 	"backgroundColor": "",
 	"backgroundShade": null,
 	"type": null,
-	"image": "",
+	"image": null,
 	"icon": null,
 	"sort": null,
 	"inclFav": false,
@@ -28,7 +29,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.6.28.2040",
+	"ver": "23.6.28.1112",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -42,13 +43,13 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": null,
-	"name": "fw_activity",
+	"name": "fw_activity1",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
-	"cardPerRow": "Many",
+	"cardPerRow": null,
 	"cardStyle": null,
-	"cardHeightFit": false,
-	"imagePlacement": "center top",
+	"cardHeightFit": true,
+	"imagePlacement": null,
 	"imageRepeat": null,
 	"imageSize": null,
 	"imageTabletPlacement": null,
@@ -62,19 +63,25 @@
 	"cockpitTileGroup": false,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",
 	"roles": [],
-	"tiles": [],
-	"tilegroups": [
+	"tiles": [
 		{
-			"id": "7706b298-9915-ee11-907c-000d3ab3b177",
-			"name": "fw_activity2",
-			"title": null,
-			"ver": "23.6.28.1019"
+			"id": "bc62c561-ca90-ed11-9f5f-0022489f9819",
+			"name": "fw_activities_list_all",
+			"title": "Everyone Else Activities",
+			"ver": "23.6.28.2034"
 		},
 		{
-			"id": "26c39408-9b15-ee11-907c-000d3ab3b177",
-			"name": "fw_activity1",
+			"id": "95192eee-e014-ee11-907c-000d3ab3b177",
+			"name": "fw_add_activity",
 			"title": null,
-			"ver": "23.6.28.1112"
+			"ver": "23.6.28.2045"
+		},
+		{
+			"id": "89bb71df-6b8c-ed11-9f5e-0022489e2f99",
+			"name": "fw_activities_list",
+			"title": "My Activities",
+			"ver": "23.6.28.2030"
 		}
-	]
+	],
+	"tilegroups": []
 }

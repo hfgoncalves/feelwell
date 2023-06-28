@@ -10,9 +10,9 @@
 				"iconButtonClose": "sap-icon://fa-regular/window-close",
 				"textButtonClose": "",
 				"typeButtonClose": "Transparent",
-				"iconButtonCreate": "sap-icon://fa-solid/apple-alt",
-				"textButtonCreate": "Add Activity",
-				"typeButtonCreate": "Accept",
+				"iconButtonCreate": "",
+				"textButtonCreate": "",
+				"typeButtonCreate": "Transparent",
 				"iconButtonExport": "sap-icon://excel-attachment",
 				"textButtonExport": "",
 				"typeButtonExport": "Transparent",
@@ -41,18 +41,11 @@
 				"title": "My Activities",
 				"avatarIcon": "sap-icon://fa-solid/apple-alt",
 				"avatarBackgroundColor": "Accent2",
-				"_navigationCreate": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "2CA8B13C-768C-ED11-9F5E-0022489E2F99",
-					"keyField": []
-				},
 				"_navigationItemPress": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "2CA8B13C-768C-ED11-9F5E-0022489E2F99",
+					"destinationTargetF": "2ca8b13c-768c-ed11-9f5e-0022489e2f99",
 					"keyField": [
 						{
 							"fieldName": "id",
@@ -64,7 +57,8 @@
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"headerPreserveState": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -96,33 +90,15 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "category",
-				"label": "Category",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "comment",
-				"label": "Comment",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "date",
 				"label": "Date",
 				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "category",
+				"label": "Category",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
@@ -132,14 +108,38 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "comment",
+				"label": "Comment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "keyDate",
+				"label": "keyDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedAt",
 				"label": "Updated At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -212,7 +212,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.1.13.843",
+	"ver": "23.6.27.1359",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

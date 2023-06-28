@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.explode-text {
+  font-size: 48px;
+  animation: explode 1s linear;
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="explodeText" class="explode-text">Tebrikler!</div>
+</div>
+<button onclick="startExplodeAnimation()">Patlat</button>
+
+<script>
+function startExplodeAnimation() {
+  var explodeText = document.getElementById("explodeText");
+  explodeText.style.visibility = "visible";
+  explodeText.classList.add("explode-animation");
+
+  setTimeout(function() {
+    explodeText.style.visibility = "hidden";
+    explodeText.classList.remove("explode-animation");
+  }, 1000);
+}
+</script>
+</body>
+</html>

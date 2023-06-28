@@ -34,13 +34,21 @@
 			"isUnique": false,
 			"description": "Explanation",
 			"isNullable": true
+		},
+		{
+			"id": "34bface8-3190-4371-85f2-ab29295e2609",
+			"fieldName": "state",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"default": "false",
+			"description": "State"
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
 	"name": "fw_categories",
 	"description": null,
-	"ver": "23.2.14.1132",
+	"ver": "23.6.20.2129",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "37de2ae1-658c-ed11-9f5e-0022489e2f99",

@@ -9,7 +9,7 @@
 	"name": "rankingSelect",
 	"ver": "23.1.5.1115",
 	"description": null,
-	"content": "file:///content.script",
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": false,

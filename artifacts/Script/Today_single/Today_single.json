@@ -9,7 +9,7 @@
 	"name": "Today_single",
 	"ver": "23.1.11.2254",
 	"description": null,
-	"content": "file:///content.script",
+	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
 	"lastRunSuccessful": false,
