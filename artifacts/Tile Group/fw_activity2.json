@@ -68,14 +68,14 @@
 		{
 			"id": "b5f7cfe1-798c-ed11-9f5e-0022489e2f99",
 			"name": "fw_stats",
-			"title": "Ranking",
-			"ver": "23.6.28.2035"
+			"title": "Ranking - Points List",
+			"ver": "23.8.7.1313"
 		},
 		{
 			"id": "227245a9-9891-ed11-9f5f-0022489f9819",
 			"name": "fw_stats_tile",
-			"title": "Ranking",
-			"ver": "23.6.28.2035"
+			"title": "Ranking - Graph",
+			"ver": "23.8.7.1313"
 		}
 	],
 	"tilegroups": []

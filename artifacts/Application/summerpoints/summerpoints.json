@@ -16,7 +16,7 @@
 				{
 					"attribute": "height",
 					"grouping": "Properties",
-					"value": "850px",
+					"value": "950px",
 					"script": "",
 					"translation": []
 				},
@@ -83,7 +83,7 @@
 						{
 							"attribute": "height",
 							"grouping": "Properties",
-							"value": "850px",
+							"value": "950px",
 							"script": "",
 							"translation": []
 						}
@@ -344,6 +344,27 @@
 															"attribute": "renderType",
 															"grouping": "Properties",
 															"value": "Div",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "displayInline",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Start",
 															"script": "",
 															"translation": []
 														}
@@ -612,7 +633,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.6.28.2252",
+	"ver": "23.7.7.148",
 	"application": "summerpoints",
 	"title": "Neptunedsummer",
 	"description": "",

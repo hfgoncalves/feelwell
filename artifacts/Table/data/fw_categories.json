@@ -132,6 +132,30 @@
 		"state": false
 	},
 	{
+		"id": "741d90ef-2831-48e8-94da-08c9a80d3759",
+		"createdAt": "1688366427959",
+		"updatedAt": "1688366427959",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Got bitten by a mosquito",
+		"points": "1",
+		"per": "Day",
+		"comment": null,
+		"state": false
+	},
+	{
+		"id": "6dedda46-01cc-44f4-b759-b8f65685e1e6",
+		"createdAt": "1688366427959",
+		"updatedAt": "1688366427959",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"category": "Watch a sunrise/sunset",
+		"points": "1",
+		"per": "Day",
+		"comment": null,
+		"state": false
+	},
+	{
 		"id": "64dcc5f8-b578-4829-ab0f-73b32714a4f1",
 		"createdAt": "1687270364478",
 		"updatedAt": "1687289369412",

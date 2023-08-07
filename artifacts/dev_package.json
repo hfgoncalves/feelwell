@@ -7,7 +7,7 @@
 	},
 	"name": "com.neptune.feelwell",
 	"description": "Feel Well ",
-	"ver": "23.1.5.1417",
+	"ver": "23.6.28.2057",
 	"enableCICD": true,
 	"apps": [
 		{
